@@ -11,6 +11,13 @@ go build;
 mv nuclei /usr/local/bin/;
 nuclei -version;
 
+install gobuster 
+## git cloen https://github.com/OJ/gobuster.git
+## cd gobuster 
+## sudo su
+## go build;
+## mv gobuster /usr/local/bin/;
+## gobuster --version
 
 >> addition if you can't download go language 
 sudo rm -rf /usr/local/go #decompressing to /usr/local
