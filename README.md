@@ -10,7 +10,7 @@ cd nuclei/v2/cmd/nuclei;
 go build;
 mv nuclei /usr/local/bin/;
 nuclei -version;
-
+go env GOPATH
 install gobuster 
 ## git cloen https://github.com/OJ/gobuster.git
 ## cd gobuster 
