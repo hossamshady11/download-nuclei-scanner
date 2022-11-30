@@ -26,3 +26,10 @@ echo 'export GOPATH=$HOME/go' >> ~/.bashrc
 echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH' >> ~/.bashrc #reload .bashrc
 source ~/.bashrc#check version
 go versiongo1.16.5 
+
+The new http://cs.github.com search allows for regex, which means brand **new** regex GitHub Dorks are possible! 
+
+Eg, find SSH and FTP passwords via connection strings with:
+/ssh:\/\/.*:.*@.*target\.com/ 
+/ftp:\/\/.*:.*@.*target\.com/ 
+
